@@ -3,7 +3,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int myNumber = (int) (Math.random() * 100);
-        int userNumber = 0;
+        int
+                userNumber = 0;
         do {
             System.out.println("Guess my number(1-100) : ");
             userNumber = sc.nextInt();
